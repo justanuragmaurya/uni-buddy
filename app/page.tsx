@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center text-center text-[#1a1a1a] px-4 sm:px-0">
         <div className="w-full sm:w-1/2 mt-20 sm:mt-44">
         <BlurFade delay={0.25} inView>
-          <div className="z-10 flex items-center justify-center">
+          <div className="z-20 flex items-center justify-center">
             <AnimatedGradientText>
               🎉 <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
               <span 

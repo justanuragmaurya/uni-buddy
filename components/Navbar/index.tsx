@@ -32,7 +32,7 @@ function Navbar() {
         </h2>
         <span className="opacity-20">|</span>
         <h2 className="hover:text-[#dddddd] hover:scale-105 transition-all">
-          <Link href="/assignments" className="font-semibold">Do someone's assignment</Link>
+          <Link href="/assignments" className="font-semibold">Do someone&apos;s assignment</Link>
         </h2>
         <Link href="/auth">
           <Button>
