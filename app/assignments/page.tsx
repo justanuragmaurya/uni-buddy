@@ -1,4 +1,5 @@
 import AssingmentCards from '@/components/AssingmentCard'
+import BlurFade from '@/components/magicui/blur-fade';
 
 function AssignmentsPage() {
   const data = [
@@ -78,8 +79,8 @@ function AssignmentsPage() {
 
 return (
     <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 p-5'>
-      {data.map((e,index)=>{return(      
-          <AssingmentCards  key={index}  data={e}/>
+      {data.map((e,index)=>{return(     
+          <AssingmentCards  key={index}  data={e} index={index}/>
       )})}
     </div>
   )

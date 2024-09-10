@@ -1,7 +1,8 @@
+import BlurFade from './magicui/blur-fade'
 import { Button } from './ui/button'
-import { BookOpen, IndianRupee, SquarePen, Timer } from 'lucide-react'
+import { BookOpen, IndianRupee, Timer } from 'lucide-react'
 
-function AssingmentCards({ data }: any) {
+function AssingmentCards({ data ,index}: any) {
     return (
         <div className='p-5 m-5 bg-gradient-to-br from-[#fafafa] via-[#fafafa] to-[#e3e3e3] border-gray-400 rounded-md border-[0.5px] flex flex-col justify-between hover:shadow-xl transition-all'>
             <div>
