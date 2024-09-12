@@ -3,8 +3,10 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import DotPattern from "@/components/magicui/dot-pattern";
 import Navbar from "@/components/Navbar";
+import { Toaster } from "@/components/ui/toaster"
 import { Montserrat } from "next/font/google";
 const mont  = Montserrat({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   
@@ -21,9 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={mont.className}>
         <Navbar/>
-
         {children}
-        
         <DotPattern
         width={20}
         height={20}
@@ -33,7 +33,9 @@ export default function RootLayout({
         className={cn(
           "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] -z-10",
         )}
-      /></body>
+      />
+      <Toaster />
+      </body>
     </html>
   );
 }
