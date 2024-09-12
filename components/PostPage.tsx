@@ -70,7 +70,7 @@ export default function PostPage() {
           <div className="flex flex-col gap-1">
             <div className="flex gap-1">
               <h2 className="text-md font-semibold">Contact : </h2>
-              <h2 className="text-xs opacity-50">*will not be shared with others, until you accept their's assignment proposal</h2>
+              <h2 className="text-xs opacity-50">*will not be shared with others, until you accept their&apos;s assignment proposal</h2>
             </div>
             <input onChange={(e)=>{setContact(e.target.value)}} required type="number" className="bg-[#f4f4f4] text-md rounded-md border-[0.5px] border-gray-400 py-1 px-5 w-full" placeholder="Enter your phone number."></input>
           </div>
